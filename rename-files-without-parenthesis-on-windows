@@ -1,0 +1,11 @@
+Unfortunately I only know how to make this work on Windows, haven't tested on a Mac yet.
+So, as you probably don't want your web files to have any spaces or weird characters in their names, this might come in handy:
+
+1. Select all files and rename the first with the title you want and the number between parenthesis starting with a '1', so that you'll always have the same number of digits. 
+For example: img(101).jpg
+The rest will be renamed img(102).jpg, img(103).jpg, etc.
+
+2. Hold SHIFT and right click in the open area of the File Explorer, then choose "Open command window here". Issue the following command:
+ren *.* img_???.*
+
+All done! Your files will then be renamed to img_101.jpg, img_102.jpg, etc.
