@@ -1,4 +1,4 @@
-Unfortunately I only know how to make this work on Windows, haven't tested on a Mac yet.
+This is for Windows users - Mac has a much simpler way to do this, as usual. :p
 So, as you probably don't want your web files to have any spaces or weird characters in their names, this might come in handy:
 
 1. Select all files and rename the first with the title you want and the number between parenthesis starting with a '1', so that you'll always have the same number of digits. 
