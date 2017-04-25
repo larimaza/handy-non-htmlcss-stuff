@@ -1,0 +1,14 @@
+/* Connects with send.php */
+
+<form class="contactus" action="send.php" method="POST" enctype="multipart/form-data">
+  <label class="contactus-item">Name
+    <input class="contactus-field" name="name" type="name" placeholder="Your name" required autofocus></input>
+  </label>
+  <label class="contactus-item">Email
+    <input class="contactus-field" name="email" type="email" placeholder="Your email" required></input>
+  </label>
+  <label class="contactus-item">Message
+    <textarea class="contactus-field" name="message" placeholder="Message" rows="10" required></textarea>
+  </label>
+  <button class="contactus-item contactus-submit" type="submit">Submit</button>
+</form>
