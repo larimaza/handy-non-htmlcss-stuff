@@ -1,3 +1,5 @@
+/* Connects with contactform.html */
+
 <?php
 
 // Transfers the data captured in the form to the variables below
